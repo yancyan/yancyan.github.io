@@ -11,55 +11,68 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  blog-cicd:
-    name: Hexo blog build & deploy
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout codes
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@master
 
-      - name: Setup node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Install dependencies
-        run: |
-          npm install hexo-cli gulp -g
-          npm install
-
-      - name: Generate files
-        run: hexo generate
-
-      - name: Execute gulp task
-        run: gulp
-
-#      - name: Deploy blog
-#        env:
-#          GH_REF: github.com/yancyan/yancyan.github.io.git # GitHub 仓库 SSH 地址
-#          GH_TOKEN: ${{secrets.All_Person_Access }} # 预先生成 GitHub Token
-#        run: |
-#          git clone "https://${{ secrets.All_Person_Access }}" deploy_git
-#          mv ./deploy_git/.git ./public/
-#          cd ./public
-#          git config user.name "yancyan"
-#          git config user.email "yancyan"
-#          git add .
-#          git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-#          git push --force --quiet "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
-
-      # 提交到我们的存放静态资源的堆栈
       - name: Build and Deploy
-        uses: y4code/hexo-deploy-action@master
+        uses: renzhaosy/hexo-deploy-action@master
         env:
           PERSONAL_TOKEN: ${{ secrets.All_Person_Access }}
           PUBLISH_REPOSITORY: yancyan/yancyan.github.io # The repository the action should deploy to.
           BRANCH: master  # The branch the action should deploy to.
           PUBLISH_DIR: ./public # The folder the action should deploy.
+#  blog-cicd:
+#    name: Hexo blog build & deploy
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Checkout codes
+#        uses: actions/checkout@v2
+#
+#      - name: Setup node
+#        uses: actions/setup-node@v1
+#        with:
+#          node-version: '12.x'
+#
+#      - name: Cache node modules
+#        uses: actions/cache@v1
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#
+#      - name: Install dependencies
+#        run: |
+#          npm install hexo-cli gulp -g
+#          npm install
+#
+#      - name: Generate files
+#        run: hexo generate
+#
+#      - name: Execute gulp task
+#        run: gulp
+#
+##      - name: Deploy blog
+##        env:
+##          GH_REF: github.com/yancyan/yancyan.github.io.git # GitHub 仓库 SSH 地址
+##          GH_TOKEN: ${{secrets.All_Person_Access }} # 预先生成 GitHub Token
+##        run: |
+##          git clone "https://${{ secrets.All_Person_Access }}" deploy_git
+##          mv ./deploy_git/.git ./public/
+##          cd ./public
+##          git config user.name "yancyan"
+##          git config user.email "yancyan"
+##          git add .
+##          git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+##          git push --force --quiet "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
+#
+#      # 提交到我们的存放静态资源的堆栈
+#      - name: Build and Deploy
+#        uses: y4code/hexo-deploy-action@master
+#        env:
+#          PERSONAL_TOKEN: ${{ secrets.All_Person_Access }}
+#          PUBLISH_REPOSITORY: yancyan/yancyan.github.io # The repository the action should deploy to.
+#          BRANCH: master  # The branch the action should deploy to.
+#          PUBLISH_DIR: ./public # The folder the action should deploy.
