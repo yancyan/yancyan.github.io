@@ -2,10 +2,9 @@
 title: Synchronized
 date: 2021-03-09 20:38:00
 author: yancyan
-categories: 虚拟机
+categories: Java
 tags:
 - JAVA
-- JVM
 ---
 
 ## Synchronized 介绍
