@@ -5,8 +5,6 @@ author: yancyan
 categories: Java
 tags:
 - JAVA
-- JVM
-- LOCK
 ---
 
 Java中往往按照是否含有某一特性定义锁，这里也先根据特性将锁进行归类
