@@ -2,7 +2,7 @@
 title: Reactor模型
 date: 2021-03-11 21:11:00
 author: yancyan
-categories: DistributedTransaction
+categories: 事务
 tags:
 - Seata
 ---

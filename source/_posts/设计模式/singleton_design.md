@@ -5,7 +5,6 @@ author: yancyan
 categories: 虚拟机
 tags:
 - 设计模式
-- 单例模式
 ---
 
 ## Singleton
