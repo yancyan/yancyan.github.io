@@ -2,7 +2,7 @@
 title: 单例设计模式
 date: 2021-03-10 21:38:00
 author: yancyan
-categories: 虚拟机
+categories: 设计模式
 tags:
 - 设计模式
 ---

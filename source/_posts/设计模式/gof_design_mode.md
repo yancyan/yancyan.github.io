@@ -1,8 +1,8 @@
 ---
 title: 简单工厂&工厂方法&抽象工厂
-date: 2021-03-16 21:38:00
+date: 2021-03-17 18:38:00
 author: yancyan
-categories: 虚拟机
+categories: 设计模式
 tags:
 - 设计模式
 ---
