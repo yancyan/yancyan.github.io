@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yancyan</title>
+  
+  <subtitle>yancyan</subtitle>
+  <link href="https://yancyan.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yancyan.github.io/"/>
+  <updated>2021-06-07T14:19:35.072Z</updated>
+  <id>https://yancyan.github.io/</id>
+  
+  <author>
+    <name>yancyan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>领域驱动设计 | 战略设计&amp;&amp;战术设计</title>
+    <link href="https://yancyan.github.io/2021/06/07/ddd/ddd/"/>
+    <id>https://yancyan.github.io/2021/06/07/ddd/ddd/</id>
+    <published>2021-06-07T21:54:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="DDD" scheme="https://yancyan.github.io/categories/DDD/"/>
+    
+    
+    <category term="领域驱动设计" scheme="https://yancyan.github.io/tags/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>命令模式</title>
+    <link href="https://yancyan.github.io/2021/03/22/she-ji-mo-shi/command/"/>
+    <id>https://yancyan.github.io/2021/03/22/she-ji-mo-shi/command/</id>
+    <published>2021-03-22T19:30:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;命令模式是把一个请求或者操作封装到一个对象中。命令模式允许系统使用不同的请求把客户端参数化，对请求排队或者记录请求日志，可以提供命令的&lt;strong&gt;撤销和恢复&lt;/strong&gt;功能。&lt;/p&gt;
+&lt;h2 id=&quot;命令模式结构&quot;&gt;&lt;a href=&quot;#命令模式结构&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>装饰器模式</title>
+    <link href="https://yancyan.github.io/2021/03/19/she-ji-mo-shi/decorator/"/>
+    <id>https://yancyan.github.io/2021/03/19/she-ji-mo-shi/decorator/</id>
+    <published>2021-03-19T20:12:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;装饰模式又名包装(Wrapper)模式。装饰模式以对客户端透明的方式扩展对象的功能，是继承关系的一个替代方案。装饰模式以对客户透明的方式动态地给一个对象附加上更多的责任。装饰模式可以在不使用创造更多子类的情况下，将对象的功能加以扩展。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>享元模式</title>
+    <link href="https://yancyan.github.io/2021/03/19/she-ji-mo-shi/flyweight/"/>
+    <id>https://yancyan.github.io/2021/03/19/she-ji-mo-shi/flyweight/</id>
+    <published>2021-03-19T20:12:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Flyweight在拳击比赛中指最轻量级，选择使用“享元模式”的意译，是因为这样更能反映模式的用意。享元模式是对象的结构模式。享元模式以共享的方式高效地支持大量的细粒度对象。&lt;/p&gt;
+&lt;h2 id=&quot;享元模式的结构&quot;&gt;&lt;a href=&quot;#享元模式的结构&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>合成模式</title>
+    <link href="https://yancyan.github.io/2021/03/19/she-ji-mo-shi/composite/"/>
+    <id>https://yancyan.github.io/2021/03/19/she-ji-mo-shi/composite/</id>
+    <published>2021-03-19T20:12:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;合成模式属于对象的结构模式，有时又叫做“部分——整体”模式。合成模式将对象组织到树结构中，可以用来描述整体与部分的关系。合成模式可以使客户端将单纯元素与复合元素同等看待。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单工厂&amp;工厂方法&amp;抽象工厂</title>
+    <link href="https://yancyan.github.io/2021/03/17/she-ji-mo-shi/gof-design-mode/"/>
+    <id>https://yancyan.github.io/2021/03/17/she-ji-mo-shi/gof-design-mode/</id>
+    <published>2021-03-17T18:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;简单工厂模式&quot;&gt;&lt;a href=&quot;#简单工厂模式&quot; class=&quot;headerlink&quot; title=&quot;简单工厂模式&quot;&gt;&lt;/a&gt;简单工厂模式&lt;/h2&gt;&lt;p&gt;简单工厂模式是类的创建模式，又叫做静态工厂方法（Static Factory</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>桥接模式</title>
+    <link href="https://yancyan.github.io/2021/03/16/she-ji-mo-shi/bridge/"/>
+    <id>https://yancyan.github.io/2021/03/16/she-ji-mo-shi/bridge/</id>
+    <published>2021-03-16T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;桥梁模式是对象的结构模式。又称为柄体(Handle and</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>适配器模式</title>
+    <link href="https://yancyan.github.io/2021/03/16/she-ji-mo-shi/adapter/"/>
+    <id>https://yancyan.github.io/2021/03/16/she-ji-mo-shi/adapter/</id>
+    <published>2021-03-16T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;适配器模式把一个类的接口变换成客户端所期待的另一种接口，从而使原本因接口不匹配而无法在一起工作的两个类能够在一起工作。</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>建造模式</title>
+    <link href="https://yancyan.github.io/2021/03/16/she-ji-mo-shi/builder/"/>
+    <id>https://yancyan.github.io/2021/03/16/she-ji-mo-shi/builder/</id>
+    <published>2021-03-16T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;建造模式是对象的创建模式。建造模式可以将一个产品的内部表象（internal</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>备忘录模式</title>
+    <link href="https://yancyan.github.io/2021/03/16/she-ji-mo-shi/memento/"/>
+    <id>https://yancyan.github.io/2021/03/16/she-ji-mo-shi/memento/</id>
+    <published>2021-03-16T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原型模式</title>
+    <link href="https://yancyan.github.io/2021/03/16/she-ji-mo-shi/prototype/"/>
+    <id>https://yancyan.github.io/2021/03/16/she-ji-mo-shi/prototype/</id>
+    <published>2021-03-16T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;《JAVA与模式》一书的原型模式描述的： 原型模式属于对象的创建模式。通过给出一个原型对象来指明所有创建的对象的类型，然后用复制这个原型对象的办法创建出更多同类型的对象。这就是选型模式的用意。&lt;/p&gt;
+&lt;h2 id=&quot;原型模式的结构&quot;&gt;&lt;a href=&quot;#原型模式的结构&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>策略模式</title>
+    <link href="https://yancyan.github.io/2021/03/16/she-ji-mo-shi/strategy/"/>
+    <id>https://yancyan.github.io/2021/03/16/she-ji-mo-shi/strategy/</id>
+    <published>2021-03-16T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>线程池</title>
+    <link href="https://yancyan.github.io/2021/03/15/java/thread-pool/"/>
+    <id>https://yancyan.github.io/2021/03/15/java/thread-pool/</id>
+    <published>2021-03-15T20:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://yancyan.github.io/categories/Java/"/>
+    
+    
+    <category term="JAVA" scheme="https://yancyan.github.io/tags/JAVA/"/>
+    
+    <category term="JUC" scheme="https://yancyan.github.io/tags/JUC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>内存屏障</title>
+    <link href="https://yancyan.github.io/2021/03/13/jvm/memory-barrier/"/>
+    <id>https://yancyan.github.io/2021/03/13/jvm/memory-barrier/</id>
+    <published>2021-03-13T11:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://yancyan.github.io/categories/Java/"/>
+    
+    
+    <category term="JVM" scheme="https://yancyan.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Volatile</title>
+    <link href="https://yancyan.github.io/2021/03/13/java/volatile/"/>
+    <id>https://yancyan.github.io/2021/03/13/java/volatile/</id>
+    <published>2021-03-13T09:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://yancyan.github.io/categories/Java/"/>
+    
+    
+    <category term="JAVA" scheme="https://yancyan.github.io/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类加载机制</title>
+    <link href="https://yancyan.github.io/2021/03/11/jvm/classloader/"/>
+    <id>https://yancyan.github.io/2021/03/11/jvm/classloader/</id>
+    <published>2021-03-11T21:11:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="虚拟机" scheme="https://yancyan.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="JVM" scheme="https://yancyan.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JIT - 逃逸分析</title>
+    <link href="https://yancyan.github.io/2021/03/11/jvm/jit-escape-analysis/"/>
+    <id>https://yancyan.github.io/2021/03/11/jvm/jit-escape-analysis/</id>
+    <published>2021-03-11T21:11:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;逃逸分析，与类型继承关系分析一样，并不是直接优化代码的手段，而是为其他优化措施提供依据的分析技术。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="虚拟机" scheme="https://yancyan.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="编译优化" scheme="https://yancyan.github.io/tags/%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java内存模型</title>
+    <link href="https://yancyan.github.io/2021/03/11/jvm/java-memory-model/"/>
+    <id>https://yancyan.github.io/2021/03/11/jvm/java-memory-model/</id>
+    <published>2021-03-11T21:11:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;h2 id=&quot;重排序&quot;&gt;&lt;a href=&quot;#重排序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="虚拟机" scheme="https://yancyan.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="JVM" scheme="https://yancyan.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JIT - 方法内联</title>
+    <link href="https://yancyan.github.io/2021/03/10/jvm/jit-method-inner/"/>
+    <id>https://yancyan.github.io/2021/03/10/jvm/jit-method-inner/</id>
+    <published>2021-03-10T22:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;先通过一段代码，体会编译优化的手段&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="虚拟机" scheme="https://yancyan.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="编译优化" scheme="https://yancyan.github.io/tags/%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>单例设计模式</title>
+    <link href="https://yancyan.github.io/2021/03/10/she-ji-mo-shi/singleton-design/"/>
+    <id>https://yancyan.github.io/2021/03/10/she-ji-mo-shi/singleton-design/</id>
+    <published>2021-03-10T21:38:00.000Z</published>
+    <updated>2021-06-07T14:19:35.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Singleton&quot;&gt;&lt;a href=&quot;#Singleton&quot; class=&quot;headerlink&quot; title=&quot;Singleton&quot;&gt;&lt;/a&gt;Singleton&lt;/h2&gt;&lt;p&gt;单例模式：一个类有且仅有一个实例&lt;/p&gt;
+&lt;h3 id=&quot;饿汉式&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="https://yancyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+</feed>
